@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+div{
+    background-color: #787878;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    box-shadow: 
+    101px -101px 0px 0px #7cbb00,
+    101px 101px 0px 0px#ffbb00,
+    -101px 101px 0px 0px #00a1f1,
+    -101px -101px 0px 0px #f65314;
+}
